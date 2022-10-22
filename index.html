@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a3237e26f6.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div id="container">
+        <h1>Tip Calculator</h1>
+        <div id="first-part">
+            <label for="">Bill</label><br>
+            <input type="number" placeholder="R$" id="inputBill" ><br>
+            <label for="">Tip%</label><br>
+            <input type="number" placeholder="%" id="inputTip"><br>
+            <div id="nop">Number of People</div>
+                <div id="numberPerPerson">               
+                <div id="minus">-</div>
+                <div id="num">0</div>
+                <div id="plus">+</div>
+            </div>
+            <!--<div id="center">
+            <label for="" id="totalWithTipPerPerson">Total With Tip Per Person</label>
+            <div id="TipPlusPerson"></div>
+            </div>-->
+            <div id="content">
+                <label id="labelTip">%Tip Per Person</label><br>
+                <div id="percTipPerPerson"></div>
+                
+                <label id="tPerPerson">Total Per Person</label><br>
+                <div id="totalPerPerson"></div>
+            </div>
+        </div>
+        <div id="second-part">            
+            <div id="total"></div>
+            <button id="calcule">Calcule</button>
+            <button id="reset">Reset</button>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
